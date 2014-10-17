@@ -55,6 +55,7 @@ namespace Passcode.Android.Customized
 			global::Passcode.Google.Resource.String.passcode_cancel = global::Passcode.Android.Customized.Resource.String.passcode_cancel;
 			global::Passcode.Google.Resource.String.passcode_clear = global::Passcode.Android.Customized.Resource.String.passcode_clear;
 			global::Passcode.Google.Resource.Style.PasscodeContainer = global::Passcode.Android.Customized.Resource.Style.PasscodeContainer;
+			global::Passcode.Google.Resource.Style.PasscodeContainer_Large = global::Passcode.Android.Customized.Resource.Style.PasscodeContainer_Large;
 			global::Passcode.Google.Resource.Style.PasscodeContainer_XLarge = global::Passcode.Android.Customized.Resource.Style.PasscodeContainer_XLarge;
 			global::Passcode.Google.Resource.Style.PasscodeFillableLayout = global::Passcode.Android.Customized.Resource.Style.PasscodeFillableLayout;
 			global::Passcode.Google.Resource.Style.PasscodeFillableLayout_Large = global::Passcode.Android.Customized.Resource.Style.PasscodeFillableLayout_Large;
@@ -277,8 +278,11 @@ namespace Passcode.Android.Customized
 			// aapt resource value: 0x7f060006
 			public const int PasscodeContainer = 2131099654;
 			
-			// aapt resource value: 0x7f060013
-			public const int PasscodeContainer_XLarge = 2131099667;
+			// aapt resource value: 0x7f06000d
+			public const int PasscodeContainer_Large = 2131099661;
+			
+			// aapt resource value: 0x7f060014
+			public const int PasscodeContainer_XLarge = 2131099668;
 			
 			// aapt resource value: 0x7f060001
 			public const int PasscodeFillableLayout = 2131099649;
@@ -286,8 +290,8 @@ namespace Passcode.Android.Customized
 			// aapt resource value: 0x7f060007
 			public const int PasscodeFillableLayout_Large = 2131099655;
 			
-			// aapt resource value: 0x7f06000d
-			public const int PasscodeFillableLayout_XLarge = 2131099661;
+			// aapt resource value: 0x7f06000e
+			public const int PasscodeFillableLayout_XLarge = 2131099662;
 			
 			// aapt resource value: 0x7f060000
 			public const int PasscodeHeader = 2131099648;
@@ -295,8 +299,8 @@ namespace Passcode.Android.Customized
 			// aapt resource value: 0x7f060009
 			public const int PasscodeHeader_Large = 2131099657;
 			
-			// aapt resource value: 0x7f06000f
-			public const int PasscodeHeader_XLarge = 2131099663;
+			// aapt resource value: 0x7f060010
+			public const int PasscodeHeader_XLarge = 2131099664;
 			
 			// aapt resource value: 0x7f060002
 			public const int PasscodeNumberButton = 2131099650;
@@ -304,8 +308,8 @@ namespace Passcode.Android.Customized
 			// aapt resource value: 0x7f06000a
 			public const int PasscodeNumberButton_Large = 2131099658;
 			
-			// aapt resource value: 0x7f060010
-			public const int PasscodeNumberButton_XLarge = 2131099664;
+			// aapt resource value: 0x7f060011
+			public const int PasscodeNumberButton_XLarge = 2131099665;
 			
 			// aapt resource value: 0x7f060005
 			public const int PasscodeNumberLayout = 2131099653;
@@ -313,8 +317,8 @@ namespace Passcode.Android.Customized
 			// aapt resource value: 0x7f060008
 			public const int PasscodeNumberLayout_Large = 2131099656;
 			
-			// aapt resource value: 0x7f06000e
-			public const int PasscodeNumberLayout_XLarge = 2131099662;
+			// aapt resource value: 0x7f06000f
+			public const int PasscodeNumberLayout_XLarge = 2131099663;
 			
 			// aapt resource value: 0x7f060003
 			public const int PasscodeSmallButton = 2131099651;
@@ -322,8 +326,8 @@ namespace Passcode.Android.Customized
 			// aapt resource value: 0x7f06000c
 			public const int PasscodeSmallButton_Large = 2131099660;
 			
-			// aapt resource value: 0x7f060012
-			public const int PasscodeSmallButton_XLarge = 2131099666;
+			// aapt resource value: 0x7f060013
+			public const int PasscodeSmallButton_XLarge = 2131099667;
 			
 			// aapt resource value: 0x7f060004
 			public const int PasscodeSmallCircle = 2131099652;
@@ -331,8 +335,8 @@ namespace Passcode.Android.Customized
 			// aapt resource value: 0x7f06000b
 			public const int PasscodeSmallCircle_Large = 2131099659;
 			
-			// aapt resource value: 0x7f060011
-			public const int PasscodeSmallCircle_XLarge = 2131099665;
+			// aapt resource value: 0x7f060012
+			public const int PasscodeSmallCircle_XLarge = 2131099666;
 			
 			static Style()
 			{

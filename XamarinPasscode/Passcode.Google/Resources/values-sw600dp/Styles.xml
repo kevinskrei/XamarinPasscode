@@ -29,4 +29,7 @@
 		<item name="android:textSize">24dp</item>
 	</style>
 
+	<style name="PasscodeContainer.Large">
+		
+	</style>
 </resources>

@@ -30,4 +30,5 @@
 	<style name="PasscodeSmallButton.XLarge">
 		<item name="android:textSize">32dp</item>
 	</style>
+
 </resources>

@@ -192,8 +192,11 @@ namespace Passcode.Google
 			// aapt resource value: 0x7f060006
 			public static int PasscodeContainer = 2131099654;
 			
-			// aapt resource value: 0x7f060013
-			public static int PasscodeContainer_XLarge = 2131099667;
+			// aapt resource value: 0x7f06000d
+			public static int PasscodeContainer_Large = 2131099661;
+			
+			// aapt resource value: 0x7f060014
+			public static int PasscodeContainer_XLarge = 2131099668;
 			
 			// aapt resource value: 0x7f060001
 			public static int PasscodeFillableLayout = 2131099649;
@@ -201,8 +204,8 @@ namespace Passcode.Google
 			// aapt resource value: 0x7f060007
 			public static int PasscodeFillableLayout_Large = 2131099655;
 			
-			// aapt resource value: 0x7f06000d
-			public static int PasscodeFillableLayout_XLarge = 2131099661;
+			// aapt resource value: 0x7f06000e
+			public static int PasscodeFillableLayout_XLarge = 2131099662;
 			
 			// aapt resource value: 0x7f060000
 			public static int PasscodeHeader = 2131099648;
@@ -210,8 +213,8 @@ namespace Passcode.Google
 			// aapt resource value: 0x7f060009
 			public static int PasscodeHeader_Large = 2131099657;
 			
-			// aapt resource value: 0x7f06000f
-			public static int PasscodeHeader_XLarge = 2131099663;
+			// aapt resource value: 0x7f060010
+			public static int PasscodeHeader_XLarge = 2131099664;
 			
 			// aapt resource value: 0x7f060002
 			public static int PasscodeNumberButton = 2131099650;
@@ -219,8 +222,8 @@ namespace Passcode.Google
 			// aapt resource value: 0x7f06000a
 			public static int PasscodeNumberButton_Large = 2131099658;
 			
-			// aapt resource value: 0x7f060010
-			public static int PasscodeNumberButton_XLarge = 2131099664;
+			// aapt resource value: 0x7f060011
+			public static int PasscodeNumberButton_XLarge = 2131099665;
 			
 			// aapt resource value: 0x7f060005
 			public static int PasscodeNumberLayout = 2131099653;
@@ -228,8 +231,8 @@ namespace Passcode.Google
 			// aapt resource value: 0x7f060008
 			public static int PasscodeNumberLayout_Large = 2131099656;
 			
-			// aapt resource value: 0x7f06000e
-			public static int PasscodeNumberLayout_XLarge = 2131099662;
+			// aapt resource value: 0x7f06000f
+			public static int PasscodeNumberLayout_XLarge = 2131099663;
 			
 			// aapt resource value: 0x7f060003
 			public static int PasscodeSmallButton = 2131099651;
@@ -237,8 +240,8 @@ namespace Passcode.Google
 			// aapt resource value: 0x7f06000c
 			public static int PasscodeSmallButton_Large = 2131099660;
 			
-			// aapt resource value: 0x7f060012
-			public static int PasscodeSmallButton_XLarge = 2131099666;
+			// aapt resource value: 0x7f060013
+			public static int PasscodeSmallButton_XLarge = 2131099667;
 			
 			// aapt resource value: 0x7f060004
 			public static int PasscodeSmallCircle = 2131099652;
@@ -246,8 +249,8 @@ namespace Passcode.Google
 			// aapt resource value: 0x7f06000b
 			public static int PasscodeSmallCircle_Large = 2131099659;
 			
-			// aapt resource value: 0x7f060011
-			public static int PasscodeSmallCircle_XLarge = 2131099665;
+			// aapt resource value: 0x7f060012
+			public static int PasscodeSmallCircle_XLarge = 2131099666;
 			
 			static Style()
 			{

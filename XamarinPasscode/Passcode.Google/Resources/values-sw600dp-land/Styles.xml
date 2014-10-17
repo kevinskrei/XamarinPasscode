@@ -27,4 +27,8 @@
     <style name="PasscodeSmallButton.Large">
 		<item name="android:textSize">18dp</item>
 	</style>
+
+	<style name="PasscodeContainer.Large">
+		
+	</style>
 </resources>

@@ -17,7 +17,7 @@ task :default => "xamarin-component/xamarin-component.exe" do
 	line = <<-END
 	mono xamarin-component/xamarin-component.exe create-manually #{COMPONENT} \
 		--name="Passcode" \
-		--summary="Passcode. Lock screen allowing users to enter a passcode. Can use right out of the box or customize everything." \
+		--summary="Lock screen allowing users to enter a passcode. Can be used right out of the box or you can customize everything." \
 		--publisher="Kevin Skrei" \
 		--website="http://kevinskrei.com" \
 		--details="Details.md" \
