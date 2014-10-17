@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pkg="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/passcode_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        style="@style/PasscodeHeader"
+        android:id="@+id/passcode_header" />
+    <LinearLayout
+        style="@style/PasscodeFillableLayout"
+        android:id="@+id/passcode_toplayout">
+        <View
+            style="@style/PasscodeSmallCircle" />
+        <View
+            style="@style/PasscodeSmallCircle" />
+        <View
+            style="@style/PasscodeSmallCircle" />
+        <View
+            style="@style/PasscodeSmallCircle" />
+        <View
+            style="@style/PasscodeSmallCircle" />
+        <View
+            style="@style/PasscodeSmallCircle" />
+        <View
+            style="@style/PasscodeSmallCircle" />
+        <View
+            style="@style/PasscodeSmallCircle" />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/PasscodeNumberLayout"
+        pkg:rows="4"
+        pkg:cols="3">
+    <!-- ROW 1 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <Passcode.Google.RoundedButton
+                android:id="@+id/passcode_button1"
+                style="@style/PasscodeNumberButton"
+                android:text="1" />
+            <Passcode.Google.RoundedButton
+                android:id="@+id/passcode_button2"
+                style="@style/PasscodeNumberButton"
+                android:text="2" />
+            <Passcode.Google.RoundedButton
+                android:id="@+id/passcode_button3"
+                style="@style/PasscodeNumberButton"
+                android:text="3" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <Passcode.Google.RoundedButton
+                android:id="@+id/passcode_button4"
+                style="@style/PasscodeNumberButton"
+                android:text="4" />
+            <Passcode.Google.RoundedButton
+                android:id="@+id/passcode_button5"
+                style="@style/PasscodeNumberButton"
+                android:text="5" />
+            <Passcode.Google.RoundedButton
+                android:id="@+id/passcode_button6"
+                style="@style/PasscodeNumberButton"
+                android:text="6" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <Passcode.Google.RoundedButton
+                android:id="@+id/passcode_button7"
+                style="@style/PasscodeNumberButton"
+                android:text="7" />
+            <Passcode.Google.RoundedButton
+                android:id="@+id/passcode_button8"
+                style="@style/PasscodeNumberButton"
+                android:text="8" />
+            <Passcode.Google.RoundedButton
+                android:id="@+id/passcode_button9"
+                style="@style/PasscodeNumberButton"
+                android:text="9" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/passcode_clear"
+                style="@style/PasscodeSmallButton"
+                android:text="@string/passcode_clear" />
+            <Passcode.Google.RoundedButton
+                android:id="@+id/passcode_button0"
+                style="@style/PasscodeNumberButton"
+                android:text="0" />
+            <Button
+                android:id="@+id/passcode_cancel"
+                style="@style/PasscodeSmallButton"
+                android:text="@string/passcode_cancel" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

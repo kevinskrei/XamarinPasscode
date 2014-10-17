@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+	<style name="PasscodeFillableLayout.XLarge" >
+		<item name="android:layout_margin">24dp</item>
+	</style>
+
+	<style name="PasscodeNumberLayout.XLarge">
+		<item name="android:layout_margin">48dp</item>
+	</style>
+
+	<style name="PasscodeHeader.XLarge">
+		<item name="android:layout_margin">24dp</item>
+		<item name="android:textSize">36dp</item>
+	</style>
+
+	<style name="PasscodeNumberButton.XLarge" >
+		<item name="android:layout_margin">18dp</item>
+		<item name="android:textSize">46dp</item>
+	</style>
+
+	<style name="PasscodeSmallCircle.XLarge" >
+		<item name="android:layout_width">52dp</item>
+		<item name="android:layout_height">52dp</item>
+		<item name="android:layout_margin">8dp</item>
+	</style>
+
+	<style name="PasscodeSmallButton.XLarge">
+		<item name="android:textSize">28dp</item>
+	</style>
+</resources>

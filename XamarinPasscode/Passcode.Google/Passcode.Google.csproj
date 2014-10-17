@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{C79AAC4D-517E-42E1-86A1-CA83990BDC21}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Passcode.Google</RootNamespace>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
+    <AssemblyName>Passcode.Google</AssemblyName>
+    <TargetFrameworkVersion>v4.4</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="PasscodeActivity.cs" />
+    <Compile Include="RoundedButton.cs" />
+    <Compile Include="SquareLayout.cs" />
+    <Compile Include="PasscodeManager.cs" />
+    <Compile Include="PasscodeEnteredEventArgs.cs" />
+    <Compile Include="MessageListener.cs" />
+    <Compile Include="Utils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\drawable\passcode_roundedbutton.xml" />
+    <AndroidResource Include="Resources\layout\passcode_main.axml" />
+    <AndroidResource Include="Resources\values\Styles.xml" />
+    <AndroidResource Include="Resources\drawable\passcode_buttonpressed.xml" />
+    <AndroidResource Include="Resources\drawable\passcode_buttonstates.xml" />
+    <AndroidResource Include="Resources\drawable\passcode_buttoncolors.xml" />
+    <AndroidResource Include="Resources\values\Attrs.xml" />
+    <AndroidResource Include="Resources\anim\passcode_shake.xml" />
+    <AndroidResource Include="Resources\anim\passcode_cycle7.xml" />
+    <AndroidResource Include="Resources\layout-land\passcode_main.axml" />
+    <AndroidResource Include="Resources\layout-sw600dp\passcode_main.axml" />
+    <AndroidResource Include="Resources\layout-sw720dp\passcode_main.axml" />
+    <AndroidResource Include="Resources\values-sw600dp\Styles.xml" />
+    <AndroidResource Include="Resources\values-sw600dp-land\Styles.xml" />
+    <AndroidResource Include="Resources\values-sw720dp\Styles.xml" />
+    <AndroidResource Include="Resources\values-sw720dp-land\Styles.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Resources\drawable\" />
+    <Folder Include="Resources\layout\" />
+    <Folder Include="Resources\anim\" />
+    <Folder Include="Resources\values-sw600dp\" />
+    <Folder Include="Resources\values-sw600dp-land\" />
+    <Folder Include="Resources\values-sw720dp\" />
+    <Folder Include="Resources\values-sw720dp-land\" />
+  </ItemGroup>
+</Project>

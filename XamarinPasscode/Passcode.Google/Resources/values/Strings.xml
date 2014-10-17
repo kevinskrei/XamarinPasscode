@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="library_name">Passcode.Google</string>
+	<string name="PasscodeHeader">Enter Your Passcode</string>
+	<string name="passcode_clear">Clear</string>
+	<string name="passcode_cancel">Cancel</string>
+</resources>
