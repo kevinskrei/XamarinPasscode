@@ -25,7 +25,7 @@
 		<item name="android:layout_margin">8dp</item>
 		<item name="android:background">@drawable/passcode_buttonstates</item>
 		<item name="android:textColor">@drawable/passcode_buttoncolors</item>
-		<item name="android:textSize">28dp</item>
+		<item name="android:textSize">24dp</item>
 	</style>
 
 	<style name="PasscodeSmallButton" parent="@style/PasscodeNumberButton">

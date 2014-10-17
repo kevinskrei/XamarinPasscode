@@ -1,4 +1,4 @@
-This component can be used to lock your application. It simply displays a passcode lock screen to the user. Your application gets a callback with the code entered.
+This component can be used to lock your application. It simply displays a passcode lock screen to the user. Your application gets a callback with the code entered. **Styled for phones and tablets in both portrait and landscape!**
 
 ## Simple Use ##
 ---

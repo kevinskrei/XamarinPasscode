@@ -1,7 +1,7 @@
 ## Simple Use ##
 ---
 
-The default styles can all be overridden and this is explained in the next section. By default this component uses a black and white color scheme.
+The default styles can all be overridden and this is explained in the next section. By default this component uses a black and white color scheme. **Styled for phones and tablets in both portrait and landscape!**
 
 You can keep the instance of PasscodeManager anywhere but I'll put in the Application class for simplicity.
 

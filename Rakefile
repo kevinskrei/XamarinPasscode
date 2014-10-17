@@ -3,7 +3,7 @@ require "rake/clean"
 CLEAN.include "*.xam"
 CLEAN.include "xamarin-component"
 
-COMPONENT = "Passcode-1.0.xam"
+COMPONENT = "Passcode-1.0.1.xam"
 
 file "xamarin-component/xamarin-component.exe" do
 	puts "* Downloading xamarin-component..."
@@ -17,7 +17,7 @@ task :default => "xamarin-component/xamarin-component.exe" do
 	line = <<-END
 	mono xamarin-component/xamarin-component.exe create-manually #{COMPONENT} \
 		--name="Passcode" \
-		--summary="Lock screen allowing users to enter a passcode. Can be used right out of the box or you can customize everything." \
+		--summary="Lock screen allowing users to enter a passcode. Can be used right out of the box or you can customize everything. Styled for phone and tablet." \
 		--publisher="Kevin Skrei" \
 		--website="http://kevinskrei.com" \
 		--details="Details.md" \

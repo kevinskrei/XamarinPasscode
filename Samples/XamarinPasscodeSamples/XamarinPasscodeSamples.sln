@@ -21,6 +21,6 @@ Global
 		{A60DB093-58C4-4F78-8AE9-A0CC7584474F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Passcode.Android.Customized\Passcode.Android.Customized.csproj
+		StartupItem = Passcode.Android.Simple\Passcode.Android.Simple.csproj
 	EndGlobalSection
 EndGlobal
