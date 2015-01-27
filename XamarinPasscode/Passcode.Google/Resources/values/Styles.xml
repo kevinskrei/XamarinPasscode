@@ -42,7 +42,6 @@
 
 	<style name="PasscodeNumberLayout">
 		<item name="android:layout_margin">12dp</item>
-		<item name="android:id">@+id/passcode_bottomlayout</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
         <item name="android:gravity">center</item>
