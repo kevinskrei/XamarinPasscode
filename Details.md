@@ -1,5 +1,7 @@
 This component can be used to lock your application. It simply displays a passcode lock screen to the user. Your application gets a callback with the code entered. **Styled for phones and tablets in both portrait and landscape!**
 
+You can find the source code on github here: [GitHub](https://github.com/kevinskrei/XamarinPasscode)
+
 ## Simple Use ##
 ---
 
@@ -77,9 +79,9 @@ Style Name | Description | Relevant Style
 
 Size Description | Width | Example Style Name | Folder/ File Name 
 ------------ | ------------- | ------------
-**Default** | width < sw600 dp  | PasscodeHeader | `values/styles.xml`
-**Large** | width 600 - 720 dp  | PasscodeHeader.Large | `values-sw600dp/styles.xml`
-**XLarge** | width > 720 dp | PasscodeHeader.XLarge | `values-sw720dp/styles.xml`
+**Default** | width < sw600 dp  | PasscodeHeader | values/styles.xml
+**Large** | width 600 - 720 dp  | PasscodeHeader.Large | values-sw600dp/styles.xml
+**XLarge** | width > 720 dp | PasscodeHeader.XLarge | values-sw720dp/styles.xml
 
 See the github repository source code for example on how to customize specific sizes. Simply append Large or XLarge to the original style.
 
@@ -103,5 +105,7 @@ screenshots taken with placeit.net
 <div>Icon made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
 
 <h3> Release Notes </h3>
+<h4> Version 1.0.2 </h4>
+Fixed incompatibility with the AppCompat V7 library. Thank you @Alex Reyes for fixing the issue!
 <h4> Version 1.0 </h4>
 - Initial Release
